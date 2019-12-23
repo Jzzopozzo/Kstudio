@@ -1,0 +1,290 @@
+body{
+	padding-top: 50px;
+	margin-bottom: 60px; /* Margin bottom by footer height */
+}
+
+html{
+	background-color: black;
+}
+
+/*kstudionav is to color the navigation bar to our preferred color i.e. black*/
+.kstudionav{
+	background-color: black;
+}
+
+#logo{ 
+	float: left; 
+	background-color: black;
+	padding: none; 
+	margin: none; 		
+	width: 30%; 
+	max-width: 200px;
+} 
+
+#logo img{ 
+	width: 60%; 
+	float: left; 
+	padding: 10px 0px; 
+}	 
+
+#top-header{
+	float: right;
+	text-align: center;
+	height: 60px;
+	background-color: black;
+}
+
+#menu ul{
+	text-align: center;
+}
+
+
+
+#footersoc {
+    position: fixed;
+    bottom: -6px;
+    top: auto;
+    z-index: 10;
+    display: none;
+}
+
+footer #footersoc .socicon {
+    width: 31px;
+    position: absolute;
+}
+
+.socicon {
+    display: inline-block;
+    width: 36px;
+    height: 36px;
+}
+
+.socicon a img:last-child {
+    opacity: 0;
+}
+
+		
+.anim {
+    transition: all .3s;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    -o-transition: all .3s;
+}
+
+img {
+    vertical-align: middle;
+}
+
+img {
+    border: 0;
+}
+
+.footer-social-icons {
+    width:180px;
+    background: #323232;
+    top: -46px;
+    position: relative;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+    left: 50%;
+    z-index: 5;
+    transform: translateX(-50%);
+    padding: 6px 12px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+:after, :before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+:after, :before {
+    box-sizing: border-box;
+}
+
+body {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    font-size: 14px;
+}
+
+
+.company-details{ 
+	overflow: hidden; 
+	padding: 3em 0em; 
+	background: #E3F0F7; 
+	text-align: center; 
+	margin-top: 5em; 
+} 
+/**********************************/
+/*		 Styling Footer	 */
+/**********************************/
+
+/*** Adding Styles to Company Details ***/
+.company-details{ 
+	overflow: hidden; 
+	padding: 3em 0em; 
+	background: #161111; 
+	text-align: center;
+	color: #EAE5E5; 
+	 
+} 
+
+#footer #col1, 
+#footer #col2, 
+#footer #col3{ 
+	background-color: #161111;
+	width: 33%; 
+	padding: 0px 40px 0px 80px; 
+} 
+	
+
+#footer #icon{ 
+	display: block; 
+	margin-bottom: 1em; 
+	font-size: 3em; 
+} 
+
+/*** Adding Styles to Copyright Div ***/
+.copyright 
+{ 
+	overflow: hidden; 
+	padding: 3em 0em; 
+	border-top: 20px solid rgba(255, 255, 255, 0.08); 
+	text-align: center; 
+	background: black; 
+} 
+	
+.copyright p 
+{ 
+	letter-spacing: 1px; 
+	font-size: 0.90em; 
+	color: rgba(255, 255, 255, 0.6); 
+} 
+	
+.copyright a 
+{ 
+	text-decoration: none; 
+	color: rgba(255, 255, 255, 0.8); 
+} 
+
+/* Styling Social Icons */
+ul.contact{ 
+	margin: 0; 
+	padding: 2em 0em 0em 0em; 
+	list-style: none; 
+} 
+	
+ul.contact li{ 
+	display: inline-block; 
+	padding: 0em 0.10em; 
+	font-size: 1em; 
+} 
+
+ul.contact li a{ 
+	color: #FFF; 
+	display: inline-block; 
+	background: #4C93B9; 
+	width: 40px; 
+	height: 40px; 
+	line-height: 40px; 
+	text-align: center; 
+}  
+
+ #home{
+ 	background: url(img/dada.jpg) no-repeat center center fixed;
+ 	display: table;
+ 	height: 100%;
+ 	position: relative;
+ 	width: 100%;
+ 	padding: 0;
+ }
+
+ .landing-text{
+ 	color: white; 
+ 	display:table-cell;
+ 	text-align: center;
+ 	vertical-align: middle;
+ }
+
+.landing-text h1{
+	font-size: 500%;
+	font-weight: 700;
+}
+
+.padding{
+	padding: 80px 0;
+
+}
+
+.padding img{
+	width:100%;
+}
+
+#fixed{
+	background: url(img/K.jpg) no-repeat center center fixed;
+	display: table;
+	height: 100%;
+	position: relative;
+	width: 100%;
+	background-size: cover;
+	color: black;
+	margin-top: 10%;
+}
+
+.padding{
+	padding: 80px 0;
+	color:#ffffff;
+
+}
+
+.padding img{
+	width:100%;
+}
+
+/* Workshops and events page- Image Grid Styling*/
+section{
+	margin: 20px 0 20px 0;
+	padding: 30px 0 30px 0;
+	background-color: black;
+}
+
+.title{
+	text-align: center;
+	font-size: 16px;
+	margin-top: 15px;
+	margin-bottom: 20px;
+	font-weight: bold; 
+}
+
+.img-kaustubh{
+	margin: 0 auto;
+	padding-bottom: 25px;
+	padding-top: 25px;
+	align-self: center;
+	font-size: 200%;
+	font-weight: 300;
+	color: #fff;
+	text-align: center;
+
+}
+/* About page*/
+.img-crew{
+	padding-left:15px;
+	padding-right: 15px;
+	color: white;
+	text-align: center;
+	font-size: 150%;
+	font-weight: 300;
+
+}
+
+.eventile{
+	text-align: center;
+	text-decoration-color: white;
+	background-color: #161111; 
+}
